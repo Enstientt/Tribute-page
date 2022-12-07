@@ -1,11 +1,36 @@
+body{
+    background-color: grey;
+}
 #image {
     max-width:75%;
     max-height: fit-content;
+    border-radius: 10%;
     
 }
 #img-div {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+#img-c{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#tribute-info{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
 
 }
